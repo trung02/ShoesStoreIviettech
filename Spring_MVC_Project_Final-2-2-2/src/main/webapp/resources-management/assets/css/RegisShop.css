@@ -1,0 +1,312 @@
+@import url("../css/root.css");
+body{
+    background: #fff !important;
+    margin: 9px;
+    padding: 0;
+}
+.content-wrapper{
+    font-family: 'Poppins';
+    margin-top: -1% !important;
+}
+.header-bottom-right-item{
+    padding: 8px 9px !important;
+}
+
+.header-bottom-right i{
+    font-size: 17px !important;
+}
+.vendor_block1{
+    align-items: center;
+    background: #eaeaea;
+    margin-top: 50px;
+    padding: 20px 90px 0 90px ;
+}
+
+.intro{
+    display: flex;
+}
+.intro span{
+    padding: 10px 40px;
+    background: linear-gradient(135deg, #df8aca, #6e5bca);
+    color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+    border-radius: 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+    margin: 30px auto 0;
+    text-align: center;
+}
+.vendor_block1 .intro-group{
+    display: flex;
+    justify-content: space-around;
+    justify-items: auto;
+    width: 95%;
+    margin: 40px auto;
+    padding: 0 2rem;   
+}
+
+.vendor_block1 .intro-item{
+    border-radius: 30px 0 30px 0;
+    width: 30rem;
+    background: #fff;
+    box-shadow: 0px 6px 10px rgba(0,0,0,0.25);
+    padding: 30px 50px;
+    margin-bottom: 2rem;
+    /* margin: 30px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vendor_block1 .intro-item h4{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.vendor_block1 .intro-item p {
+    padding: 0;
+    color: #a5a5a5;
+    font-size: 0.8rem;
+    align-items: center;
+}
+
+.intro-item i{
+    font-size: 2.5rem;
+    background: linear-gradient(135deg, #ed55c7, #6756ca);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.vendor_block3 .co-operate {
+    display: flex;
+    margin: 40px 0;
+    min-height: 900px;
+}
+.vendor_block3 .co__video {
+    width: 55%;
+    position: relative;
+}
+.vendor_block3 .co__video video {
+    max-width: 100%;
+    min-height: 750px;
+    height: 100%;
+    object-fit: cover;
+}
+.vendor_block3 .co__form {
+    width: 45%;
+    overflow: hidden;
+    position: relative;
+}
+.vendor_block3 .co__form .circle1 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: #ffa08a;
+    position: absolute;
+    bottom: 81%;
+    left: -9%;
+    z-index: 3;
+}
+.vendor_block3 .co__form .circle2 {
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    background: linear-gradient(60deg, #e662c5, #482fda);
+
+    position: absolute;
+    bottom: 78%;
+    right: -13%;
+    z-index: 2;
+}
+.vendor_block3 .co__form h3 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+    background: var(--theme-color);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.vendor_block3 .co__form .form {
+    position: absolute;
+    width: calc(95%);
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding: 0 12%;
+}
+form {
+    text-align: left;
+}
+
+.vendor_block3 .co__form .form-group {
+    margin-top: 45px;
+    position: relative;
+    border: unset;
+}
+.vendor_block3 .co__form .form-group label {
+    position: absolute;
+    top: -24%;
+    left: 5%;
+    display: block;
+    color: #434343;
+    background: #fff;
+    z-index: 2;
+}
+label.cm-required:after {
+    padding-left: 3px;
+    color: #d64830;
+    content: "*";
+    font-size: 130%;
+    line-height: 1px;
+}
+.vendor_block3 .co__form .form-group input {
+    display: block;
+    height: 53px;
+    width: 100%;
+    max-width: 100%;
+    /* border-radius: 10px; */
+    border: solid 2px #434343;
+    font-size: 20px;
+    line-height: 25px;
+    top: 0;
+    z-index: 1;
+    padding-left: 10px;
+}
+.vendor_block3 .co__form .form-group input:focus{
+    border-radius: 10px;
+}
+.vendor_block3 .co__form button {
+    display: block;
+    margin: 35px 0 0 auto;
+    border: none;
+    border-radius: 10px;
+    min-width: 180px;
+    height: 50px;
+    color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+}
+.vendor_block3 .co__form button span{
+    font-size: 1.3rem;
+}
+.contact{
+    margin: 2rem 0 4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact .contact-user{
+    display: flex;
+    align-items: center;
+}
+.contact .contact-icon{
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #ed55c7, #6756ca);
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.3rem;
+}
+.contact-user span{
+    background: linear-gradient(135deg, #e92eba, #4e37ce);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+/* ------------ Footer -------------- */
+footer a{
+    font-size:0.7rem !important;
+}
+.footer_top {
+    padding: 10px 2.5rem !important;
+}
+.block_heading{
+font-size: 1.2rem !important;
+margin: 0;
+}
+.footer_top-item{
+    padding-bottom: 20px !important;
+    gap: 25px !important;
+}
+.block_list,
+.block_card-list,
+.block-app-list,
+.block_application-list{
+    padding: 0;
+}
+.block_subscribe-wrapper input::placeholder{
+    font-size: 13px;
+}
+.block_subscribe-wrapper input{
+    padding: 10px 20px ;
+}
+.block-app-item i{
+padding-top: 0 !important;
+font-size: 2rem !important;
+}
+.card-item_icon {
+    width: 20px !important;
+}
+.block_subscribe-submit button {
+    font-size: 13px;
+}
+.footer_top-info p{
+    margin-bottom: 0;
+    font-size: 13px !important;
+    font-weight: 420 !important;
+}
+.footer_bot{
+    font-size: 13px !important;
+    font-weight: 420 !important;
+}
+/* ======== MEDIA ======== */
+@media (max-width: 515px){
+    .intro span{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .contact{
+        display: block;
+    }
+    .contact .contact-user{
+       display: grid;
+    }
+    .contact-user{
+        margin: 30px 0;
+    }
+    .contact-icon,
+    .contact-user span
+    {
+        margin: 10px auto
+    }
+    .vendor_block3 .co__form{
+        min-height: 750px;
+    }
+    .vendor_block3 .co-operate{
+        display: inline-block;
+    }
+    .vendor_block3 .co-operate .co__form,
+    .vendor_block3 .co-operate .co__video
+    {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 1124px){
+    .vendor_block1{
+       padding: 40px 0 0 0;
+    }
+  }

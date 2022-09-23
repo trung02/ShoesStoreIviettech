@@ -1,0 +1,17 @@
+@import url("../css/root.css");
+
+.content-wrapper{
+    align-items: center;
+    margin-top: 5%;
+}
+.btnArond{
+    float: right;
+   
+}
+.btnArond button{
+    margin: 0 10px; 
+    margin-bottom: 1rem;
+}
+.dropdown-cate{
+    margin-bottom: 20px;
+}

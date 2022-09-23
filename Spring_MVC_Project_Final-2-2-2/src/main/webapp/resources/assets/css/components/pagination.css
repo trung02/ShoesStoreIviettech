@@ -1,0 +1,22 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.page-link,
+.page-back,
+.page-next {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid transparent;
+  color: gray;
+  cursor: pointer;
+}
+.page-link.current,
+.page-back.current,
+.page-next.current {
+  border: 1px solid #d5d0f0;
+}

@@ -1,0 +1,202 @@
+@import url("../css/root.css");
+
+.content-wrapper{
+    align-items: center;
+    margin-top: -1.5% !important;
+
+}
+.btnArond{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.btnArond button{
+    padding: 10px 20px;
+    margin: 20px 0px 0px 20px;
+}
+.btnArond .primary{
+    height: 40px;
+    margin: 20px 0 0 20px;
+}
+
+.dropdown-cate{
+    margin-bottom: 20px;
+}
+.form-group label,
+.form-label{
+    margin: 30px 0px 5px 0;
+}
+
+
+.checkbox-size{
+    padding: 5px 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.size-left{
+    width: 33%;
+}
+.size-center{
+    margin: 0 40px;
+    width: 33%;
+}
+.size-right{
+    width: 33%;
+   
+}
+.size-wrap{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.size-wrap .size-tile{
+    width: 70px;
+}
+.size-wrap .size-tile input{
+    margin-top: 0;
+}
+.size-wrap .size-tile span{
+    margin-left: 5px;
+}
+/* .cost-box{
+    min-width: 100px;
+} */
+
+.check-inline{
+    margin-top: 30px;
+}
+.form-check-inline{
+   margin: 0 30px;
+}
+
+.upload__box{
+    padding-top: -20px;
+}
+.upload__inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.upload__btn {
+    display: inline-block;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    min-width: 116px;
+    padding: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 2px solid;
+    background-color: #4045ba;
+    border-color: #4045ba;
+    border-radius: 10px;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.upload__btn p{
+    margin: 0;
+}
+
+.upload__btn:hover {
+    background-color: unset;
+    color: #4045ba;
+    transition: all 0.3s ease;
+}
+.upload__btn-box {
+    margin-bottom: 10px;
+}
+.upload__img-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px;
+}
+.upload__img-box {
+    width: 230px;
+    padding: 0 10px;
+    margin: 20px 16px;
+}
+.upload__img-close {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    line-height: 24px;
+    z-index: 1;
+    cursor: pointer;
+}
+.upload__img-close:after {
+    content: '\2716';
+    font-size: 14px;
+    color: white;
+}
+.img-bg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 100%;
+}
+
+/* ======== MEDIA ======== */
+@media (max-width: 495px){
+    .btnArond{
+ 
+        margin-top: 2rem;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    .size-left,
+    .size-center,
+    .size-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column!important;
+    }
+    .size-wrap .tile-right{
+        margin-left: 0px !important;
+    }
+    .cost-box{
+        min-width: 150px !important;
+    }
+}
+
+@media (max-width: 800px){
+    .checkbox-size{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .size-left,
+    .size-center,
+    .size-right {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .size-center{
+        margin: 0;
+    }
+
+    .size-wrap .tile-right{
+        margin-left: 50px;
+    }
+    .cost-box{
+        min-width: 100px;
+    }
+}
+
+@media (min-width: 1200px){
+    .layout-page{
+        padding-left: 14.5rem;
+    }
+  }

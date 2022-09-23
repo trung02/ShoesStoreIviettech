@@ -1,0 +1,47 @@
+@import url("../css/root.css");
+
+.content-wrapper{
+    align-items: center;
+    margin-top: -1.5% !important;
+}
+.btnArond{
+    float: right;
+    display: flex;
+    align-items: center;  
+    margin-bottom: 1rem;
+}
+.btnArond button{
+    margin: 20px 0px 0px 20px;
+}
+.btnArond .btn-warning{
+    margin-right: 20px;
+}
+.btnArond .primary{
+    height: 40px;
+    margin-top: 20px
+}
+
+.dropdown-cate{
+    margin-bottom: 20px;
+}
+.form-group label,
+.form-label{
+    margin: 30px 0px 5px 0;
+}
+
+
+/* ======== MEDIA ======== */
+@media (max-width: 495px){
+    .btnArond{
+        margin-top: 2rem;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1200px){
+    .layout-page{
+        padding-left: 14.5rem;
+    }
+  }

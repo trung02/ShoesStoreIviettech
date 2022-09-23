@@ -1,0 +1,64 @@
+@import url("../css/root.css");
+
+.content-wrapper {
+  margin-top: 1%;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+.card-body {
+  font-size: 0.8rem !important;
+}
+
+.customer-avatar {
+  display: flex;
+}
+
+.customer-name {
+  margin-left: 15px;
+  font-size: 1rem;
+}
+
+.card-header-right {
+  display: flex;
+}
+
+.right-icon-goBack {
+  padding: 0 15px 16px 0;
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* ============= MEDIA =========== */
+
+@media screen and (max-width: 430px) {
+  .right-content {
+    display: none;
+  }
+
+  .card-header span {
+    margin-top: -1.3rem;
+  }
+}
+
+/*Tablet nhỏ(480 x 640)*/
+
+@media screen and (max-width: 700px) {
+
+  .btnArond button span {
+    display: none;
+  }
+
+  .icon-fas {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .layout-page {
+    padding-left: 14.5rem;
+  }
+}

@@ -1,0 +1,149 @@
+.footer_top {
+  background-color: #101010;
+  padding: 1.5rem 4rem;
+}
+.footer_top-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+}
+.footer_bot {
+  margin: 1rem 0;
+  font-weight: 400;
+  font-size: 1.4rem;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.block_item.logo,
+.block_heading {
+  padding-top: 2.5rem;
+  padding-bottom: 1.2rem;
+}
+.block_heading,
+.block_link {
+  line-height: 1.5;
+  color: var(--text-semi-white);
+}
+.block_heading {
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+.block_link {
+  font-size: 14px;
+  font-weight: 400;
+}
+.block-app-list {
+  display: flex;
+  gap: 2rem;
+}
+.block-app-item i {
+  font-size: 3rem;
+  color: var(--instagram);
+  background: var(--instagram);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card-item_box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid #484848;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.card-item_icon {
+  display: flex;
+  align-items: center;
+  width: 2rem;
+  height: auto;
+}
+.card-item_icon img {
+  width: 100%;
+  height: 100%;
+}
+.card-item_list {
+  display: flex;
+  gap: 1rem;
+}
+.block_card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.block_application-list,
+.block_delivery-list {
+  display: flex;
+  gap: 1rem;
+}
+.delivery-item_icon {
+  width: 3rem;
+  height: 3rem;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.application-item_link {
+  height: 100%;
+}
+.application-item_link img {
+  width: 100%;
+  height: 100%;
+}
+.block_subscribe-wrapper {
+  display: flex;
+  border: 1px solid var(--border-color);
+  border-radius: 3rem;
+}
+.block_subscribe-submit {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+.block_subscribe-submit button {
+  padding: 0 1rem;
+}
+.input-subscribe-email {
+  width: 1px;
+  flex: 1;
+  padding: 1rem 2rem;
+  font-size: 14px;
+  color: var(--text-white);
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.footer .divider {
+  background-color: var(--border-color);
+}
+.divider_wrapper {
+  display: flex;
+  align-items: center;
+}
+.footer_top-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 3rem 0 2rem;
+}
+.footer_top-info p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: var(--text-semi-white);
+}
+
+.footer_top-right {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.no-reviews div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}

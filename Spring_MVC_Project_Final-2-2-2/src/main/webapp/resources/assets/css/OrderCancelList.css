@@ -1,0 +1,42 @@
+@import url("../css/root.css");
+
+.content-wrapper {
+  margin-top: -1%;
+}
+
+.layout-demo-info {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.header-table {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* ============= MEDIA =========== */
+@media screen and (max-width: 700px) {
+
+  .btnArond button span {
+    display: none;
+  }
+
+  .icon-fas {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .content-wrapper {
+    padding: 0 !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .content-wrapper {
+    padding-left: 14.5rem;
+  }
+}

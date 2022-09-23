@@ -1,0 +1,55 @@
+@import url("../css/root.css");
+
+.layout-demo-info {
+    text-align: center;
+    margin-top: 1rem;
+  }
+.content-wrapper{
+    align-items: center;
+    margin-top: 2%;
+}
+
+.content-wrapper{
+  align-items: center;
+  margin-top: 2%;
+}
+.btnArond{
+  float: right;
+ 
+}
+.btnArond button{
+  margin: 0 10px; 
+}
+.header-table{
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: space-between;
+}
+
+/* =============== MEDIA CONTROL =================*/
+@media screen and (max-width: 700px){
+  
+  .btnArond button span{
+    display: none; 
+  }
+  .icon-fas{
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 240px){
+  .abcz{width: 200px;}
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px){
+  .abcz{width: 320px;}
+    
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px){
+  .abcz{width: 400px;}
+
+}
+
+
